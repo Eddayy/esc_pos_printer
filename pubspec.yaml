@@ -9,9 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  esc_pos_utils: ^0.3.6
+  esc_pos_utils:
+    git:
+      url: git://github.com/Eddayy/esc_pos_utils.git
+      ref: master
   # esc_pos_utils:
-    # path: ../esc_pos_utils
+  # path: ../esc_pos_utils
 
 dev_dependencies:
   flutter_test:
